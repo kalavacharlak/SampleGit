@@ -24,5 +24,32 @@
   </dependencies>
   <build>
     <finalName>TestApp</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+        <version>2.5.2</version>
+        <configuration>
+          <format>xml</format> 
+        </configuration>
+      </plugin>
+    </plugins>     
+
   </build>
+  
+   <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+        <version>2.5.2</version>
+        <configuration>
+          <format>xml</format> 
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  
+  
 </project>
