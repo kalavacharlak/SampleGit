@@ -1,12 +1,14 @@
 package com.sample.test;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 import com.sample.model.LoginModel;
 
 import junit.framework.TestCase;
 
-public class TestLogin extends TestCase {
+public class TestLogin {
 	
 	/*@Test
 	public void NullLoginForm(){
@@ -18,7 +20,7 @@ public class TestLogin extends TestCase {
 	}*/
 	
 	@Test
-	public void NotNullLoginForm(){
+	public void testNotNullLoginForm(){
 		String pass="Success";
 		String name="Krishna";
 		String dob="082684";
