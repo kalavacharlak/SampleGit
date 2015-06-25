@@ -12,9 +12,7 @@
 	<groupId>junit</groupId>
 	<artifactId>junit</artifactId>
 	<version>4.1</version>
-	<configuration>
-		<format>html</format>
-	</configuration>
+	
 </dependency>
 
     
