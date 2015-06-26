@@ -48,6 +48,15 @@
           <format>xml</format> 
         </configuration>
       </plugin>
+      <plugin>
+   <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+        <outputName>surefire</outputName>
+        <testFailureIgnore>true</testFailureIgnore>
+        </configuration>
+    </plugin>
     </plugins>
   </reporting>
 
